@@ -19,11 +19,11 @@ export default function Footer() {
 
         <div className="footerimages" > 
 
-            <img  src={img2}/>
+            <img  className="img2footer" src={img2}/>
 
             <img className="img3footer" src={img3}/>
-            <img src={img4}/>
-            <img src={img5}/>
+            <img className="img4footer" src={img4}/>
+            <img className="img5footer" src={img5}/>
 
         </div>
 

@@ -5,7 +5,7 @@ export default function Contact() {
     <div>
       <div className="contactbackground">
       <div>
-      <h2 className="contact">CONTACT</h2>
+      <h2 className="contact">C O N T A C T</h2>
       </div>
       <div className="contacttext">
       <p>Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius finibus.<br/> Sed ornare sit amet lorem <br/>sed viverra. In vel urna quis libero viverra facilisis ut ac est.</p>
