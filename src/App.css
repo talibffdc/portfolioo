@@ -38,16 +38,32 @@
   }
 }
 
+.navdown{
+  background-color: grey;
+ 
+}
+
  /* skills css here */
 
 .backgroundskills{
   background-color: rgb(236,236,236);
 }
+.skillsborder{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-right: 60px;
+  text-align: center;
+}
 .skills{
   border: 4px solid black;
   text-align: center;
-  width: fit-content;
+  width: max-content;
   margin-left: 700px ;
+  margin-right: 700px;
+  padding-left: 50px;
+  padding-right: 50px;
+  
+
 
 }
 .usingnow{
@@ -86,10 +102,12 @@ display: flex;
 
 .img1{
   text-align: center;
-  margin-left: 200px;
+  margin-left: 250px;
+  height: 50px;
+  width: auto;
 }
 .img2{
-  margin-left: 200px;
+  margin-left: 50px;
 }
 .img3{
   margin-left: 200px;
@@ -99,15 +117,19 @@ display: flex;
 }
 .img5{
   margin-left: 210px;
+  padding-top: 50px;
 }
 .img6{
   margin-left: 210px;
+  padding-top: 50px;
 }
 .img7{
   margin-left: 200px;
+  padding-top: 50px;
 }
 .img8{
   margin-left: 230px;
+  padding-top: 50px;  
 }
 .img9{
   margin-left: 200px;
@@ -149,7 +171,9 @@ display: flex;
   padding-bottom: 10px;
   
 }
-
+.contactborder{
+  padding-top: 50px;
+}
 .button{
   border-bottom: none;
   border-left: 3px solid black;
@@ -296,12 +320,44 @@ display: flex;
 
 }
 .logo{
-  height: fit-content;
-  margin-left: 100px;
+  height: 30px;
+  width: 30px;
+  margin-left: 110px;
+  margin-top: 50px;
 }
 
 .text{
-  margin-top: 270px;
+  margin-top: 150px;
+  margin-left: 100px;
+
 }
 
 
+.frontendimg{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: grey;
+  width: 50%;
+  
+}
+.imgtalib{
+  background-color: black;
+  width: 50%;
+}
+
+.imginsta{
+  margin-left: 10px;
+  padding-top: 35px;
+
+}
+.imgtwi{
+  margin-left: 10px;
+}
+.frontendfonttext{
+ color: dark gray;
+  
+}
+.imgat{
+  margin-left: 100px;
+}

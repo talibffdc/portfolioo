@@ -55,4 +55,17 @@
     background-color: rgb(29,29,29);
     color: white;
     height: 200px;
+    padding-left: 22px;
+    padding-top: 10px;
+}
+.readmore{
+        margin-top: 20px;
+        border: 3px solid black;
+        border-top: none;
+        border-bottom: none;
+        background-color:#1D1D1D;
+        color: white;
+        height: 22px;
+        padding-left: 15px;
+        padding-right: 15px;
 }

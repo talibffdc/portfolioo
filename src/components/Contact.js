@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div>
       <div className="contactbackground">
-      <div>
+      <div className="contactborder">
       <h2 className="contact">C O N T A C T</h2>
       </div>
       <div className="contacttext">

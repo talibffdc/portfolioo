@@ -14,11 +14,15 @@ function App() {
    <div>
 
     <Navbar/>
+    <div className="navdown">
+      <h6></h6>
+
+    </div>
     <Firstpage/>
     <About/>
     <Skills/>
   
-    <Portfolio/>
+    {/* <Portfolio/> */}
      <Contact/>
   
     <Footer/>

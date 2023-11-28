@@ -20,7 +20,7 @@ export default function Skills() {
   return (
     <>
     <div className="backgroundskills">
-    <div>
+    <div className="skillsborder">
 
         <h2 className="skills">S K I L L S</h2>
 

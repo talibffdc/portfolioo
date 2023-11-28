@@ -9,9 +9,11 @@ export default function About() {
 
     <div className="itberriesall"> 
       <h2>IT BERRIES</h2>
-      <p> Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius finibus. Sed ornare sit amet lorem sed viverra. In vel urna quis libero viverra facilisis ut ac est.</p>
+      <p> Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius finibus. Sed ornare sit amet lorem sed viverra. In vel urna quis libero viverra <br/> facilisis ut ac est.Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius finibus. Sed ornare sit amet lorem sed viverra. In vel urna quis libero viverra facilisis ut ac est.</p>
 
+      <button className="readmore">READ MORE</button>
     </div>
+    
 
     <body className="background" >
 
