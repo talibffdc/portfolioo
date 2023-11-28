@@ -1,15 +1,22 @@
 .background{
     background-color: rgb(219,219,219);
+    padding-top: 10px;
+    
 }
 .about{
-    border: 2px solid black;
+    border: 4px solid black;
     text-align: center;
     width: fit-content;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 19px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: 60px;
 
 }
+
 .both{
     display: flex;
     flex-direction: row;
@@ -23,6 +30,10 @@
 }
 .textnulla{
     text-align: center;
+    font-size: smaller;
+    font-family: Open Sans;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 .explore{
     border: 2px solid black;
@@ -33,8 +44,9 @@
     padding-right: 20px;
     border-bottom: none;
     border-top: none;
-    border-left: 3px solid black;
-    border-right: 3px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    margin-top: 40px;
 }
 .maintenanceall{
     text-align: center;
@@ -44,17 +56,25 @@
 }
 .design{
     margin-left: 250px;
+    width: 516px;
+}
+.development{
+    width: 516px;
+    margin-left: 100px;
 }
 .developmenttext{
     margin-left: 300px;
+    font-size: 22px;
 }
 .imgseparator{
-    margin-left: 660px;
+    margin-left: 680px;
+    padding-top: 50px;
+
 }
 .itberriesall{
     background-color: rgb(29,29,29);
     color: white;
-    height: 200px;
+    height: 250px;
     padding-left: 22px;
     padding-top: 10px;
 }
@@ -68,4 +88,27 @@
         height: 22px;
         padding-left: 15px;
         padding-right: 15px;
+}
+.abouttextsize{
+    font-size: 14px;
+    text-align: justify;
+    
+}
+.designtext{
+   font-size: 22px;
+}
+.maintenancetext{
+    font-size: 14px;
+    margin-left: 664px;
+    margin-right: 200px;
+    text-align: justify;
+    width: 516px;
+    padding-bottom: 200px;
+    
+}
+.maintenance{
+    padding-top: 100px;
+}
+.imgseparatordown{
+    padding-bottom: 50px;
 }

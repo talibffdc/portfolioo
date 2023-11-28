@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <div className="all">
         <div>
-            <img  className="img1" src={img1}/>
+            <img  className="img1footer" src={img1}/>
         </div>
         <div className="backtotop">
             <h6>BACK TO TOP</h6>
