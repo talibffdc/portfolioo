@@ -65,6 +65,8 @@
 .other {
   font-size: 24px;
   margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 155px;
 }
 
 .htmlimg,
@@ -132,12 +134,12 @@
 .contacttext{
   text-align: center;
   font-size: small;
-  
+  margin-top: 50px;
 
 }
 .inputarea{
   text-align: center;
-  
+  margin-top: 50px;  
 }
 .enteryourname{
   border-bottom: 3px solid black;
@@ -148,7 +150,13 @@
   width: 70vh;
   margin-top: 40px;
   height: 24px;
-  
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 13px;
+}
+.enteryourname:focus {
+  outline: none; /* Remove the default focus outline */
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
 }
 .enteryourmail{
   border-bottom: 3px solid black;
@@ -159,6 +167,13 @@
   width: 70vh;
   margin-top: 50px;
   height: 24px;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 13px;
+}
+.enteryourmail:focus {
+  outline: none; /* Remove the default focus outline */
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
 }
 
 .phonenumber{
@@ -170,18 +185,35 @@
   width: 70vh;
   margin-top: 50px;
   height: 24px;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 13px;
+}
+.phonenumber:focus {
+  outline: none; /* Remove the default focus outline */
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
 }
 
 .yourmessage{
+  border: none;
   border-bottom: 3px solid black;
   border-left: 3px solid black;
-  border-top: none;
-  border-right: none;
+  
+  
   background-color: rgb(229,229,229);
   width: 70vh;
   margin-top: 50px;
   height: 90px;
   margin-bottom: 40px;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 13px;
+
+
+}
+.yourmessage:focus {
+  outline: none; /* Remove the default focus outline */
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
 }
 
 .contactbackground{
@@ -191,7 +223,10 @@
 
   }
 
-  
+ .yourmessage::placeholder {
+  transform: translate(-1px, -25px); /* Adjust the values to move the placeholder */
+  font-size: small; /* You can adjust the font size if needed */
+}
 
 
 /* footer css */
@@ -206,7 +241,7 @@
 }
 
 .img1footer{
-  padding-right: 200px;
+  
   padding-top: 20px;
 }
 .img2footer{
