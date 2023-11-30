@@ -1,4 +1,4 @@
-.background{
+/* .background{
     background-color: rgb(219,219,219);
     padding-top: 10px;
     
@@ -117,4 +117,104 @@
 }
 .imgseparatordown{
     padding-bottom: 50px;
+} */
+
+
+/* aboutstyle.css */
+
+.background {
+    background-color: rgb(219, 219, 219);
+    padding-top: 10px;
+  }
+  
+  .about {
+    border: 4px solid black;
+    text-align: center;
+    width: fit-content;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 19px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: 60px;
+  }
+  
+  .both {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .softwareengineer {
+    background-color: rgb(67, 66, 66);
+    color: white;
+  }
+  
+  .textnulla {
+    text-align: center;
+    font-size: smaller;
+    font-family: Open Sans;
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+  
+  .explore {
+    border: 2px solid black;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: none;
+    border-top: none;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    margin-top: 40px;
+  }
+  
+  .maintenanceall {
+    text-align: center;
+  }
+  
+  .textmaintenance {
+    padding-bottom: 30px;
+  }
+  
+  .design {
+    margin-left: 250px;
+    width: 516px;
+  }
+  
+  .development {
+    width: 516px;
+    margin-left: 100px;
+  }
+  
+  .developmenttext {
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .imgseparator {
+    margin-left: 680px;
+    padding-top: 50px;
+  }
+  
+  .itberriesall {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    height: 250px;
+    padding-left: 22px;
+    padding-top: 10px;
+  }
+.readmore{
+  margin-top: 20px;
+        border: 3px solid white;
+        border-top: none;
+        border-bottom: none;
+        background-color:#1D1D1D;
+        color: white;
+        height: 22px;
+        padding-left: 15px;
+        padding-right: 15px;
 }

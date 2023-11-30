@@ -45,7 +45,7 @@
 
  /* skills css here */
 
-.backgroundskills {
+/* .backgroundskills {
   background-color: rgb(219, 219, 219);
   padding: 50px;
 }
@@ -95,6 +95,74 @@
   font-family: Arial, sans-serif;
   font-size: 18px;
   margin-top: 10px;
+} */
+
+.backgroundskills {
+  background-color: rgb(219, 219, 219);
+  padding: 50px;
+}
+
+.skillsborder {
+  text-align: center;
+}
+
+.skills {
+   border: 4px solid black;
+  text-align: center;
+  width: fit-content;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 19px;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-bottom: 60px;
+}
+
+.usingnow,
+.learning,
+.other {
+  font-size: 30px;
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 12%;
+}
+
+.htmlimg,
+.reactimg,
+.jsimg,
+.cimg {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%
+}
+
+.htmlimg,
+.reactimg{
+  margin-bottom: 20px;
+}
+
+.htmlimg > div,
+.reactimg > div,
+.jsimg > div,
+.cimg > div {
+  text-align: center;
+  margin: 10px;
+  height: 10%;
+  width: 10%;
+}
+
+.img {
+  height: 100px;
+  width: auto;
+}
+
+.imgname {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
 }
 
 
@@ -103,7 +171,7 @@
 
 
 /* // contact css here */
-.contact{
+/* .contact{
   border: 4px solid black;
   
   display: flex;
@@ -155,7 +223,7 @@
   padding-left: 13px;
 }
 .enteryourname:focus {
-  outline: none; /* Remove the default focus outline */
+
   border-left: 3px solid black;
   border-bottom: 3px solid black;
 }
@@ -172,7 +240,7 @@
   padding-left: 13px;
 }
 .enteryourmail:focus {
-  outline: none; /* Remove the default focus outline */
+  outline: none; 
   border-left: 3px solid black;
   border-bottom: 3px solid black;
 }
@@ -190,7 +258,7 @@
   padding-left: 13px;
 }
 .phonenumber:focus {
-  outline: none; /* Remove the default focus outline */
+  outline: none; 
   border-left: 3px solid black;
   border-bottom: 3px solid black;
 }
@@ -212,7 +280,7 @@
 
 }
 .yourmessage:focus {
-  outline: none; /* Remove the default focus outline */
+  outline: none; 
   border-left: 3px solid black;
   border-bottom: 3px solid black;
 }
@@ -225,26 +293,110 @@
   }
 
  .yourmessage::placeholder {
-  transform: translate(-1px, -25px); /* Adjust the values to move the placeholder */
-  font-size: small; /* You can adjust the font size if needed */
+  transform: translate(-1px, -25px); 
+  font-size: small; 
+} */
+
+.contactbackground {
+  background-color: rgb(229, 229, 229);
+}
+
+.contact {
+  border: 4px solid black;
+  display: flex;
+  margin: 0px auto;
+  width: fit-content;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.contactborder{
+  padding-top: 50px;
 }
 
 
-/* footer css */
+.button {
+  border-bottom: none;
+  border-left: 3px solid black;
+  border-top: none;
+  border-right: 3px solid black;
+  background-color: rgb(229, 229, 229);
+  margin-bottom: 40px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 700;
+}
 
+.contacttext {
+  text-align: center;
+  font-size: small;
+  margin-top: 50px;
+}
+
+.inputarea {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.enteryourname,
+.enteryourmail,
+.phonenumber {
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  border-top: none;
+  border-right: none;
+  background-color: rgb(229, 229, 229);
+  width: 70vh;
+  margin-top: 40px;
+  height: 24px;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 13px;
+  font-weight: 700;
+  
+  
+}
+.yourmessage{
+  border: none;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  background-color: rgb(229,229,229);
+  width: 70vh;
+  margin-top: 50px;
+  height: 90px;
+  margin-bottom: 40px;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 13px;
+  font-weight: 700;
+}
+
+.enteryourname:focus,
+.enteryourmail:focus,
+.phonenumber:focus,
+.yourmessage:focus {
+  outline: none;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.yourmessage::placeholder {
+  transform: translate(-1px, -25px);
+  font-size: small;
+}
+
+
+
+/* footer css */
+/* 
 .all{
   text-align: center;
   background-color:#1A1A1A;
   color: white;
-
-  
   position: absolute;
   border: 0;
   width: 100%;
-
-
-
-
 }
 .footerimages{
   margin: left;
@@ -253,6 +405,7 @@
 .img1footer{
   
   padding-top: 20px;
+ 
 }
 .img2footer{
   margin-bottom: 20px;
@@ -269,12 +422,55 @@
 }
 .backtotop{
   padding: 20px;
+  
+}
+.backtotop h6{
+  margin-top: 5px;
+}
+ */
+
+
+ .all {
+  text-align: center;
+  background-color: #1A1A1A;
+  color: white;
+  position: absolute;
+  border: 0;
+  width: 100%;
+}
+
+.footerimages {
+  margin: left;
+}
+
+.img1footer {
+  padding-top: 20px;
+}
+
+.img2footer,
+.img3footer,
+.img4footer {
+  margin: 20px;
+}
+
+.img5footer {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.backtotop {
+  padding: 20px;
+}
+
+.backtotop h6 {
+  margin-top: 5px;
 }
 
 
 
-/* portfolio css here */
 
+/* portfolio css here */
+/* 
 .portfolio{
 
   background-image: url('components/images/moutains.png');
@@ -308,7 +504,7 @@
 
 .portfolioattribute div p {
   color: white;
-  /* Add any additional styling as needed */
+ 
 }
 .imgcolumn{
     display: flex;
@@ -319,9 +515,9 @@
   
   }
   .imgcolumn img {
-       width: 100%;/* Adjust the width of the images as needed */
-    height: 290px; /* Adjust the height of the images as needed */
-     /* Adjust as needed for spacing between images */
+       width: 100%;
+    height: 290px; 
+     
   
   }
   
@@ -334,8 +530,62 @@
   padding-bottom: 5px;
   font-size: 20px;
 }
+ */
 
 
+
+ .portfolio {
+  background-image: url('components/images/moutains.png');
+  width: 100%;
+  height: 110px;
+  padding-top: 70px;
+}
+
+.portfoliotext {
+  border: 4px solid black;
+  display: flex;
+  margin: 0px auto;
+  width: fit-content;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.portfolioattribute {
+  display: flex;
+  background-color: rgb(26, 26, 26);
+}
+
+.portfolioattribute div p {
+  color: white;
+}
+
+.imgcolumn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+.imgcolumn img {
+  width: 100%;
+  height: 290px;
+}
+
+.graystrip {
+  background-color: rgb(26, 26, 26);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+
+ 
 
 
 /* first page css */
