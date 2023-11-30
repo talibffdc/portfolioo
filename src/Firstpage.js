@@ -50,7 +50,7 @@ export default function Firstpage() {
     <>
       <div className="firstpageitem">
         <div className="frontendimg">
-          <Navbar className="navbarfirstpage"/>
+          <Navbar/>
           <img className="logo" src={logo} alt="Logo" />
           <div className="text">
             <h2>Hi, I am</h2>
