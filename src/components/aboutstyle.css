@@ -63,8 +63,9 @@
     margin-left: 100px;
 }
 .developmenttext{
-    margin-left: 300px;
+    
     font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
 }
 .imgseparator{
     margin-left: 680px;
@@ -80,7 +81,7 @@
 }
 .readmore{
         margin-top: 20px;
-        border: 3px solid black;
+        border: 3px solid white;
         border-top: none;
         border-bottom: none;
         background-color:#1D1D1D;
@@ -92,22 +93,27 @@
 .abouttextsize{
     font-size: 14px;
     text-align: justify;
+    font-family: 'Open Sans', sans-serif;
     
 }
 .designtext{
    font-size: 22px;
+   font-family: 'Montserrat', sans-serif;
 }
+   
 .maintenancetext{
     font-size: 14px;
-    margin-left: 664px;
+    margin-left: 670px;
     margin-right: 200px;
     text-align: justify;
     width: 516px;
     padding-bottom: 200px;
+    font-family: 'Open Sans', sans-serif;
     
 }
 .maintenance{
     padding-top: 100px;
+    font-family: 'Montserrat', sans-serif;
 }
 .imgseparatordown{
     padding-bottom: 50px;

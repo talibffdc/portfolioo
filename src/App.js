@@ -21,9 +21,10 @@ function App() {
     <Firstpage/>
     <About/>
     <Skills/>
-  
+   
     <Portfolio/>
-     <Contact/>
+   
+    <Contact/>
   
     <Footer/>
     </div>

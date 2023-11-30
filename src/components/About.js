@@ -38,7 +38,7 @@ export default function About() {
           <div className="both">
 
             <div className="design">
-              <h2 className="designtext">Design</h2>
+              <h2 className="designtext">DESIGN</h2>
               <p className="abouttextsize">
                 I can designed the site based on your needs and suggestions I
                 can also designed the site from scratch and consult you during
@@ -46,7 +46,7 @@ export default function About() {
               </p>
             </div>
             <div className="development">
-              <h2 className="developmenttext">Development</h2>
+              <h2 className="developmenttext">DEVELOPMENT</h2>
               <p className="abouttextsize">
                 I can designed the site based on your needs and suggestions I
                 can also designed the site from scratch and consult you during
