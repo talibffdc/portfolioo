@@ -336,6 +336,10 @@
   margin-top: 50px;
 }
 
+.contacttext img{
+  padding-top: 30px;
+}
+
 .inputarea {
   text-align: center;
   margin-top: 50px;
@@ -458,9 +462,7 @@
   padding-left: 20px;
 }
 
-.backtotop {
-  padding: 20px;
-}
+
 
 .backtotop h6 {
   margin-top: 5px;

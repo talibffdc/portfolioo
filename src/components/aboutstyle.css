@@ -218,3 +218,15 @@
         padding-left: 15px;
         padding-right: 15px;
 }
+
+.maintenancetext{
+  font-size: 14px;
+  margin-left: 670px;
+  margin-right: 200px;
+  text-align: center;
+  width: 516px;
+  padding-bottom: 200px;
+  font-family: 'Open Sans', sans-serif;
+  
+  
+}
