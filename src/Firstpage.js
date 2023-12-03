@@ -50,7 +50,7 @@ export default function Firstpage() {
     <>
       <div className="firstpageitem">
         <div className="frontendimg">
-          <Navbar/>
+          
           <img className="logo" src={logo} alt="Logo" />
           <div className="text">
             <h2>Hi, I am</h2>
@@ -66,6 +66,7 @@ export default function Firstpage() {
         </div>
 
         <div className="imgtalib">
+        <Navbar/>
           <img src={imgtalib} alt="Mohd Talib Mansoori" />
         </div>
       </div>

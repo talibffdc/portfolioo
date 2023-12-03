@@ -84,7 +84,7 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div className='imgcolumn'>
+      <div className='imgcolumn001'>
         <img src={img1portfolio} alt="Portfolio Item 1" />
         <img src={img2portfolio} alt="Portfolio Item 2" />
         <img src={img3portfolio} alt="Portfolio Item 3" />

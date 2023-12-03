@@ -143,6 +143,7 @@
   .both {
     display: flex;
     flex-direction: row;
+    padding-top: 20px;
   }
   
   .softwareengineer {
@@ -174,6 +175,7 @@
   
   .maintenanceall {
     text-align: center;
+    padding-top: 50px;
   }
   
   .textmaintenance {
@@ -221,12 +223,37 @@
 
 .maintenancetext{
   font-size: 14px;
-  margin-left: 670px;
-  margin-right: 200px;
-  text-align: center;
+  margin-left: 226px;
   width: 516px;
   padding-bottom: 200px;
   font-family: 'Open Sans', sans-serif;
-  
-  
+  text-align: justify;
+  }
+
+
+
+  @media only screen and (max-width: 768px)
+  {
+  .maintenancetext {
+    font-size: 14px;
+    margin-left: 226px;
+    width: 516px;
+    padding-bottom: 200px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+.textnulla {
+  text-align: center;
+  font-size: 9px;
+  font-family: Open Sans;
+   margin-left: 0px; 
+  /* margin-right: 400px; */
+}
+
+.both {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
 }

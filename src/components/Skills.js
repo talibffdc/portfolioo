@@ -168,18 +168,18 @@ export default function Skills() {
 
         <div className="htmlimg">
           <div>
-            <img className="img" src={img1} alt="HTML5" />
-            <div className="imgname">HTML5</div>
+            <img className="img001" src={img1} alt="HTML5" />
+            <div className="imgname001">HTML5</div>
           </div>
 
           <div>
-            <img className="img" src={img2} alt="CSS" />
-            <div className="imgname">CSS</div>
+            <img className="img002" src={img2} alt="CSS" />
+            <div className="imgname002">CSS</div>
           </div>
 
           <div>
-            <img className="img" src={img3} alt="Sass" />
-            <div className="imgname">Sass</div>
+            <img className="img003" src={img3} alt="Sass" />
+            <div className="imgname003">Sass</div>
           </div>
 
           <div>

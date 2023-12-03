@@ -6,6 +6,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
 import Firstpage from './Firstpage';
+import Responsive from './components/Responsive';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
     <Contact/>
   
     <Footer/>
+    <Responsive/>
     </div>
    </>
   );

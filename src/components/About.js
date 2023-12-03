@@ -76,10 +76,13 @@
 import React from "react";
 import "./aboutstyle.css";
 import imgseparator from "./images/separatorBlack 1.png";
+import Responsive from "./Responsive";
 
 export default function About() {
   return (
     <>
+    
+    <Responsive/>
       <div className="itberriesall">
         <h2>IT BERRIES</h2>
         <p>
