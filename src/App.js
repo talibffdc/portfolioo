@@ -28,7 +28,7 @@ function App() {
     <Contact/>
   
     <Footer/>
-    <Responsive/>
+    
     </div>
    </>
   );

@@ -125,7 +125,7 @@ export default function About() {
           </div>
           <div className="maintenanceall">
             <h2 className="maintenance">MAINTENANCE </h2>
-            <p className="maintenancetext">
+            <p className="abouttextsize">
               I can maintain the site based on your needs and suggestions. I can
               also maintain the site from scratch and consult you during the job.
             </p>

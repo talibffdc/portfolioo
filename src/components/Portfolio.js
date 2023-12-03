@@ -95,6 +95,7 @@ export default function Portfolio() {
         <img src={img5portfolio} alt="Portfolio Item 5" />
         <img src={img6portfolio} alt="Portfolio Item 6" />
       </div>
+     
 
       <div className="graystrip">
         <h5>And many more to come!</h5>

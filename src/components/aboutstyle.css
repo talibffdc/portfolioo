@@ -255,5 +255,9 @@
   flex-direction: column;
   padding-top: 20px;
 }
+.imgseparator {
+  margin-left: 299px;
+  padding-top: 50px;
+}
 
 }

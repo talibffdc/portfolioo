@@ -564,16 +564,18 @@
 }
 
 .imgcolumn {
+
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: auto;
-  height: auto;
+  margin-top: -5px;
 }
 
-.imgcolumn img,img001,img002,img003 {
-  width: 100%;
-  height: 290px;
+.imgcolumn001 img {
+  width: 33.3%;
+  height: 312px;
+}
+.imgcolumn img{
+  width: 33.3%;
+  height: 312px;
 }
 
 .graystrip {
