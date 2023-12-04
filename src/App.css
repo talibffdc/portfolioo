@@ -812,7 +812,8 @@
 display: block;
   background-image: url('./components/images/firstpagebackground.png') ;
   background-repeat: no-repeat;
-  
+  width: 356px;
+  height: 755px;
 }
 .firstpageitem{
   display: none;
@@ -824,14 +825,17 @@ display: block;
 
 .htmlimg, .reactimg, .jsimg, .cimg {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   flex-wrap: wrap;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 33%;
+  /* margin-right: 117%; */
   flex-direction: column;
+  margin-bottom: -57px;
 }
+
 .img001, img002,img003{
   display: block;
+  margin-bottom: 20%; /* Adjust the margin as needed for spacing */
 }
 .img{
   display: none;
@@ -852,12 +856,44 @@ display: block;
 }
 
 
+.portfoliotext {
+  border: 8px solid black;
+  display: flex;
+  margin: 0px auto;
+ 
+  width: fit-content;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 
+.usingnow, .learning, .other {
+  font-size: 30px;
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 12%;
+  text-align: center;
+}
+.skills {
+  border: 8px solid black;
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 19px;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-bottom: 60px;
+  font-size: 14px;
+}
 
-
-
-
+.maintenancetextsize{
+  margin-bottom: 47px;
+}
 
 
 }

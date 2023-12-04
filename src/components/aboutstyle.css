@@ -175,7 +175,7 @@
   
   .maintenanceall {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 0px;
   }
   
   .textmaintenance {
@@ -199,7 +199,7 @@
   
   .imgseparator {
     margin-left: 680px;
-    padding-top: 50px;
+    padding-top: 35px;
   }
   
   .itberriesall {
@@ -275,13 +275,49 @@ white-space: normal; /* This property sets the text to wrap onto the next line w
   font-size: 9px;
 }
 
-.design, .development{
+.design, .development {
   text-align: center;
   width: auto;
   margin-left: 0px;
+  margin-bottom: 32px;
 }
 .imgcolumn001 img {
   width: 100%;
   height: 312px;
+}
+.about{
+border: 8px solid black;
+text-align: center;
+width: -moz-fit-content;
+width: fit-content;
+padding: 20px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 19px;
+padding-right: 50px;
+padding-left: 50px;
+margin-bottom: 60px;
+}
+
+.itberriesall h2{
+  text-align: center;
+}
+
+.itberriesall{
+  height: 350px;
+}
+
+.readmore {
+  margin-top: 27px;
+  border: 2px solid white;
+  border-top: none;
+  border-bottom: none;
+  background-color: #1D1D1D;
+  color: white;
+  height: 22px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 129px;
+  /* margin-right: 43px; */
 }
 }
