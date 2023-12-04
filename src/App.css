@@ -489,9 +489,10 @@
 /* Add styles for mobile responsiveness */
 /* Add styles for mobile responsiveness */
 @media only screen and (max-width: 414px) {
-  .imgseparator {
-    margin-left: 126px;
-    padding-top: 58px;
+
+.imgseparator {
+  margin-left: 110px;
+  padding-top: 50px;
 }
   .enteryourname,
   .enteryourmail,

@@ -261,6 +261,7 @@
 }
 .designtext {
   margin-left: 0px;
+  margin-right: 224px;
 }
 .abouttextsize {
   
@@ -319,5 +320,12 @@ margin-bottom: 60px;
   padding-right: 15px;
   margin-left: 114px;
   /* margin-right: 43px; */
+}
+
+.developmenttext{
+  margin-right: 157px;
+}
+.maintenance{
+  margin-right: 143px;
 }
 }
