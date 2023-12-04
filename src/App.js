@@ -25,7 +25,7 @@ function App() {
       <Menu isOpen={isMenuOpen} onClose={toggleMenu} />
 
         
-        {/* <Navbar />
+        <Navbar />
         <div className="navdown">
           <h6></h6>
         </div>
@@ -34,7 +34,7 @@ function App() {
         <Skills />
         <Portfolio />
         <Contact />
-        <Footer /> */}
+        <Footer />
       </div>
     </>
   );

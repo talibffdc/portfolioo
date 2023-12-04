@@ -10,16 +10,18 @@
   .line {
     width: 31px;
     height: 2.5px;
-    background-color: white; /* Set background color to black */
+    background-color: white;
     margin: 5px 0;
     text-align: right;
-    
+    margin-left: 361px;
+    margin-top: 8px;
 }
   
 
 @media only screen and (max-width: 600px) {
     .hamburger {
-      background-color: red; /* Change background color for mobile */
+        background-color: black;
+        height: 57px;
     }
   
     .line {
