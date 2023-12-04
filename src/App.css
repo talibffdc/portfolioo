@@ -43,6 +43,8 @@
  
 }
 
+
+
  /* skills css here */
 
 /* .backgroundskills {
@@ -798,6 +800,9 @@
   margin-left: 100px;
 }
 
+
+
+
 /* Responsive styles for screens up to 768px width */
 .firstpagerespon{
  display: none;
@@ -833,7 +838,7 @@ display: block;
   margin-bottom: -57px;
 }
 
-.img001,.img002,.img003{
+.img001,.img002,.nimg003{
   display: block;
   margin-bottom: 20%; /* Adjust the margin as needed for spacing */
   height: 100px;
@@ -895,6 +900,8 @@ display: block;
 .maintenancetextsize{
   margin-bottom: 47px;
 }
+
+
 
 
 }

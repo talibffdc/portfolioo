@@ -1,0 +1,29 @@
+/* Hamburger.css */
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: black;
+  }
+  
+  .line {
+    width: 31px;
+    height: 2.5px;
+    background-color: white; /* Set background color to black */
+    margin: 5px 0;
+    text-align: right;
+    
+}
+  
+
+@media only screen and (max-width: 600px) {
+    .hamburger {
+      background-color: #333; /* Change background color for mobile */
+    }
+  
+    .line {
+      background-color: white;
+    }
+  
+  }
