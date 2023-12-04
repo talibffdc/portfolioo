@@ -63,6 +63,7 @@ import './Menu.css';
 
 const Menu = ({ isOpen, onClose }) => {
   return (
+    
     <div className={`menu ${isOpen ? 'open' : ''}`}>
       <button className="close-btn" onClick={onClose}>
         &times;
