@@ -723,10 +723,12 @@
 
   .imgcolumn001 img {
     width: 100%;
-    height: 312px;
+    height: 266px;
     margin-bottom: -5px;
     margin-top: -1px;
 }
+
+
 
 .imgcolumn img{
   width: 33.3%;
@@ -851,7 +853,7 @@ display: block;
   margin-bottom: -57px;
 }
 
-.img001,.img002,.nimg003{
+.img001,.img002,.img003{
   display: block;
   margin-bottom: 20%; /* Adjust the margin as needed for spacing */
   height: 100px;
@@ -915,10 +917,26 @@ display: block;
 }
 
 
-.imgname001, .imgname002, .imgname003{
+.imgname001 {
+  font-size: 24px;
+}
+.imgname002{
+  margin-left: 26px;
+  font-size: 24px;
+}
+.imgname003{
+  margin-left: 33px;
   font-size: 24px;
 }
 
+.img002,.img003{
+  margin-top: 30px;
+}
+
+.imgcolumn001 img {
+  width: 100%;
+  height: 266px;
+}
 
 
 }
