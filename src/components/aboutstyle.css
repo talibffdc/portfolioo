@@ -263,6 +263,16 @@
   margin-left: -81px;
 }
 .abouttextsize {
-  margin-left: -758px;
+  
+  font-size: 9px;
 }
+.developmenttextsize{
+font-size: 9px;
+word-wrap: break-word; /* This property allows long words to be broken and wrap onto the next line */
+white-space: normal; /* This property sets the text to wrap onto the next line when needed */
+}
+.maintenancetextsize{
+  font-size: 9px;
+}
+
 }

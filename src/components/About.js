@@ -117,7 +117,7 @@ export default function About() {
             </div>
             <div className="development">
               <h2 className="developmenttext">DEVELOPMENT</h2>
-              <p className="abouttextsize">
+              <p className="developmenttextsize">
                 I can develop the site based on your needs and suggestions. I can
                 also develop the site from scratch and consult you during the job.
               </p>
@@ -125,7 +125,7 @@ export default function About() {
           </div>
           <div className="maintenanceall">
             <h2 className="maintenance">MAINTENANCE </h2>
-            <p className="abouttextsize">
+            <p className="maintenancetextsize">
               I can maintain the site based on your needs and suggestions. I can
               also maintain the site from scratch and consult you during the job.
             </p>
