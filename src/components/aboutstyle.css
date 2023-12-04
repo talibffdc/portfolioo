@@ -247,7 +247,7 @@
   font-size: 9px;
   font-family: Open Sans;
    margin-left: 0px; 
-  /* margin-right: 400px; */
+  margin-right: 0px;
 }
 
 .both {
@@ -256,8 +256,13 @@
   padding-top: 20px;
 }
 .imgseparator {
-  margin-left: 299px;
+  margin-left: 121px;
   padding-top: 50px;
 }
-
+.designtext {
+  margin-left: -81px;
+}
+.abouttextsize {
+  margin-left: -758px;
+}
 }

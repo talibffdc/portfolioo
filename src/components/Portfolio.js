@@ -59,7 +59,7 @@
 
 import React from 'react';
 import img1portfolio from './images/1.png';
-import img2portfolio from './images/2.png';
+import img2portfolio from './images/2.jpg';
 import img3portfolio from './images/3.png';
 import img4portfolio from './images/4.png';
 import img5portfolio from './images/5.png';
@@ -72,21 +72,34 @@ export default function Portfolio() {
         <h3 className="portfoliotext">P O R T F O L I O</h3>
       </div>
 
-      <div className="portfolioattribute">
+      {/* <div className="portfolioattribute">
         <div>
-          <p>ALL</p>
+          <p className='all'>ALL</p>
         </div>
         <div>
-          <p>CODED</p>
+          <p></p>
         </div>
         <div>
-          <p>DESIGNED</p>
+          <p >DESIGNED</p>
         </div>
-      </div>
+      </div> */}
+
+
+
+
+
+<div className='taball'>
+<ul className="tab-bar">
+  <li className="tab">ALL</li>
+  <li className="tab">CODED</li>
+  <li className="tab">DESIGNED</li>
+</ul>
+</div>
 
       <div className='imgcolumn001'>
         <img src={img1portfolio} alt="Portfolio Item 1" />
         <img src={img2portfolio} alt="Portfolio Item 2" />
+        
         <img src={img3portfolio} alt="Portfolio Item 3" />
       </div>
 

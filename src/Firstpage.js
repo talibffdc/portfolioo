@@ -66,7 +66,9 @@ export default function Firstpage() {
         </div>
 
         <div className="imgtalib">
+          <div className="navbarimg">
         <Navbar/>
+        </div>
           <img src={imgtalib} alt="Mohd Talib Mansoori" />
         </div>
       </div>
