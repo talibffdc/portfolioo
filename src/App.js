@@ -15,13 +15,14 @@ function App() {
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
+
   };
 
   return (
     <>
       <div>
-        <Hamburger onClick={toggleMenu} />
-        <Menu isOpen={isMenuOpen} onClose={toggleMenu} />
+      <Hamburger onClick={toggleMenu} />
+      <Menu isOpen={isMenuOpen} onClose={toggleMenu} />
 
         
         {/* <Navbar />
