@@ -833,9 +833,10 @@ display: block;
   margin-bottom: -57px;
 }
 
-.img001, img002,img003{
+.img001,.img002,.img003{
   display: block;
   margin-bottom: 20%; /* Adjust the margin as needed for spacing */
+  height: 100px;
 }
 .img{
   display: none;
