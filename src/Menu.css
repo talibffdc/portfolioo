@@ -13,6 +13,7 @@
   }
   
   .menu.open {
+   
     right: 0;
     opacity: 0.5;
     height: 27.4%;
@@ -38,11 +39,11 @@
     cursor: pointer;
     border-bottom: 1px solid #555;
   }
-  
+   
   .menu-item:hover {
-    background-color: #555;
+    background-color: #fff; /* Change the background color on hover */
+    color: #000; /* Change the text color on hover */
   }
-  
   /* Mobile Responsiveness */
   @media only screen and (max-width: 600px) {
     .menu {

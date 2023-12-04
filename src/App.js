@@ -21,7 +21,8 @@ function App() {
   return (
     <>
       <div>
-      <Hamburger onClick={toggleMenu} />
+        {!isMenuOpen ?  <Hamburger onClick={toggleMenu} />:""}
+     
       <Menu isOpen={isMenuOpen} onClose={toggleMenu} />
 
         
