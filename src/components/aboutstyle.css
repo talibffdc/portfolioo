@@ -260,7 +260,7 @@
   padding-top: 50px;
 }
 .designtext {
-  margin-left: -81px;
+  margin-left: 0px;
 }
 .abouttextsize {
   
@@ -275,4 +275,13 @@ white-space: normal; /* This property sets the text to wrap onto the next line w
   font-size: 9px;
 }
 
+.design, .development{
+  text-align: center;
+  width: auto;
+  margin-left: 0px;
+}
+.imgcolumn001 img {
+  width: 100%;
+  height: 312px;
+}
 }
