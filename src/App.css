@@ -809,27 +809,12 @@
 
 
 /* Responsive styles for screens up to 768px width */
-.firstpagerespon{
- display: none;
-  background-image: url('./components/images/firstpagebackground.png') ;
-  height: 500px;
-  width: auto;
-}
 
 
 
 @media only screen and (max-width: 768px) {
  
-.firstpagerespon{
-display: block;
-  background-image: url('./components/images/firstpagebackground.png') ;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 755px;
-  margin-top: -26px;
-  background-size: cover;
 
-}
 .navbar {
   background-color: black;
   overflow: hidden;

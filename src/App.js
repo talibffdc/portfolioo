@@ -9,6 +9,7 @@ import Portfolio from './components/Portfolio';
 import Firstpage from './Firstpage';
 import Hamburger from './Hamburger';
 import Menu from './Menu';
+import Responsive from './components/Responsive';
 
 function App() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -25,7 +26,7 @@ function App() {
      
       <Menu isOpen={isMenuOpen} onClose={toggleMenu} />
 
-        
+        <Responsive/>
         <Navbar />
         <div className="navdown">
           <h6></h6>
