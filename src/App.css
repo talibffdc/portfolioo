@@ -669,6 +669,8 @@
   padding-right: 55px;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-size: 14px; ;
+  font-weight: 700px;
 }
 
 .portfolioattribute {
@@ -809,10 +811,27 @@
 
 
 /* Responsive styles for screens up to 768px width */
-
-
+.responimg{
+  display: none;
+}
+.text-overlay{
+  display: none;
+}
+.developertext{
+  display: none;
+}
 
 @media only screen and (max-width: 768px) {
+
+  .responimg{
+    display: block;
+  }
+  .text-overlay{
+    display: block;
+  }
+  .developertext{
+    display: block;
+  }
  
 
 .navbar {
@@ -898,9 +917,6 @@
   font-size: 14px;
 }
 
-.maintenancetextsize{
-  margin-bottom: 47px;
-}
 
 
 .imgname001 {
@@ -923,6 +939,74 @@
   width: 100%;
   height: 266px;
 }
+.responimg{
+  width: 100%;
+  position: relative;
+  display: inline-block;
+   
+}
+.text-overlay{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+font-size: 25px;
+font-weight: bold;
+text-align: center;
+
+padding: 10px;
+
+font-family: 'Advent Pro';
+}
+.developertext {
+  position: absolute;
+  top: 54%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 32px;
+  /* font-weight: bold; */
+  text-align: center;
+  /* padding: 10px; */
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.threerespon{
+  
+    position: absolute;
+    top: 72%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    color: white;
+   
+    
+    flex-direction: row;
+justify-content: space-between;
+
+
+}
+.separatorrepon {
+  position: absolute;
+  top: 64%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+
+}
+.twitterimg{
+  padding-left: 20px;
+}
+.linkedinimg{
+  padding-left: 20px;
+}
+.instagramimg{
+  padding-left: 48px;
+}
+.portfolioitem1{
+  height: 257px;
+}
+
 
 
 }

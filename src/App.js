@@ -28,9 +28,7 @@ function App() {
 
         <Responsive/>
         <Navbar />
-        <div className="navdown">
-          <h6></h6>
-        </div>
+       
         <Firstpage />
         <About />
         <Skills />

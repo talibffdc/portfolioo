@@ -119,6 +119,10 @@
     padding-bottom: 50px;
 } */
 
+.imgseparatordown{
+  padding-top: 4%;
+}
+
 
 /* aboutstyle.css */
 
@@ -229,6 +233,13 @@
   font-family: 'Open Sans', sans-serif;
   text-align: justify;
   }
+  .maintenancetextsize{
+  
+
+    padding-left: 44.2%;
+    padding-right: 27%;
+  }
+  
 
 
 
@@ -260,20 +271,28 @@
   padding-top: 50px;
 }
 .designtext {
-  margin-left: 0px;
+  
   margin-right: 224px;
+  
+ 
 }
 .abouttextsize {
   
   font-size: 9px;
+  padding-left: 12%;
+  padding-right: 10%;
 }
 .developmenttextsize{
 font-size: 9px;
 word-wrap: break-word; /* This property allows long words to be broken and wrap onto the next line */
 white-space: normal; /* This property sets the text to wrap onto the next line when needed */
+padding-left: 11%;
+padding-right: 10%;
 }
 .maintenancetextsize{
   font-size: 9px;
+  padding-left: 9.9%;
+  padding-right: 10%;
 }
 
 .design, .development {
@@ -286,18 +305,22 @@ white-space: normal; /* This property sets the text to wrap onto the next line w
   width: 100%;
   height: 312px;
 }
-.about{
-border: 8px solid black;
-text-align: center;
-width: -moz-fit-content;
-width: fit-content;
-padding: 20px;
-margin-left: auto;
-margin-right: auto;
-padding-top: 19px;
-padding-right: 50px;
-padding-left: 50px;
-margin-bottom: 60px;
+.about {
+  border: 8px solid black;
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 19px;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-bottom: 60px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700px
+  ;
 }
 
 .itberriesall h2{
@@ -324,8 +347,9 @@ margin-bottom: 60px;
 
 .developmenttext{
   margin-right: 157px;
+  
 }
 .maintenance{
-  margin-right: 143px;
+  margin-right: 148px;
 }
 }
