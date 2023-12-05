@@ -650,9 +650,9 @@
   font-size: 20px;
 }
  */
-
-
-
+ .imgcolumn001{
+  display: flex;
+ }
  .portfolio {
   background-image: url('components/images/moutains.png');
   width: 100%;
@@ -718,15 +718,15 @@
 .imgcolumn {
 
   display: flex;
+  flex-direction: row;
   margin-top: -5px;
 }
 
-
-  .imgcolumn001 img {
-    width: 100%;
-    height: 266px;
-    margin-bottom: -5px;
-    margin-top: -1px;
+.imgcolumn001 img {
+  width: 100%;
+  height: 312px;
+  margin-bottom: -5px;
+  margin-top: -1px;
 }
 
 

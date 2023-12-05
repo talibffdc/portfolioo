@@ -18,10 +18,17 @@
 }
   
 
+.hamburger {
+  background-color: black;
+  height: 57px;
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
     .hamburger {
         background-color: black;
         height: 57px;
+        display: block;
     }
   
     .line {
