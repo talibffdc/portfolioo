@@ -921,6 +921,7 @@
 
 .imgname001 {
   font-size: 24px;
+  padding-left: 50%;
 }
 .imgname002{
   margin-left: 26px;
@@ -1006,7 +1007,6 @@ justify-content: space-between;
 .portfolioitem1{
   height: 257px;
 }
-
 
 
 }

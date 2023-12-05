@@ -199,6 +199,9 @@
   .developmenttext {
     font-size: 22px;
     font-family: 'Montserrat', sans-serif;
+    background: url('./images/maintenanceimgg.png');
+    height: 43px;
+    background-repeat: no-repeat;
   }
   
   .imgseparator {
@@ -240,6 +243,16 @@
     padding-right: 27%;
   }
   
+  .designtext{
+    background: url('./images/toolsimgg.png');
+    height: 50px;
+    background-repeat: no-repeat;
+  }
+  .maintenance{
+    background: url('./images/toolsimgg.png');
+    height: 50px;
+    background-repeat: no-repeat;
+  }
 
 
 
@@ -273,6 +286,9 @@
 .designtext {
   
   margin-right: 224px;
+  background: url('./images/designimgg.png');
+  height: 43px;
+  background-repeat: no-repeat;
   
  
 }
@@ -347,9 +363,17 @@ padding-right: 10%;
 
 .developmenttext{
   margin-right: 157px;
+   
+    background: url('./images/maintenanceimgg.png');
+    height: 43px;
+    background-repeat: no-repeat;
+
   
 }
 .maintenance{
   margin-right: 148px;
+  background: url('./images/toolsimgg.png');
+  height: 50px;
+  background-repeat: no-repeat;
 }
 }
