@@ -485,6 +485,9 @@
   transform: translate(-1px, -25px);
   font-size: small;
 }
+.threerespon(
+  
+)
 
 /* Add styles for mobile responsiveness */
 /* Add styles for mobile responsiveness */
@@ -818,6 +821,12 @@
   display: none;
 }
 .developertext{
+  display: none;
+}
+.threerespon{
+  display: none;
+}
+.separatorrepon {
   display: none;
 }
 

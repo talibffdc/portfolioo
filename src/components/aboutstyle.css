@@ -341,10 +341,12 @@ padding-right: 10%;
 
 .itberriesall h2{
   text-align: center;
+
 }
 
 .itberriesall{
   height: 350px;
+  margin-top: -4px;
 }
 
 .readmore {
