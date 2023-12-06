@@ -485,9 +485,10 @@
   transform: translate(-1px, -25px);
   font-size: small;
 }
-.threerespon(
-  
-)
+
+html{
+  scroll-behavior: smooth;
+}
 
 
 
