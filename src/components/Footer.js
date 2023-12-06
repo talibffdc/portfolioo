@@ -35,6 +35,7 @@
 
 
 import React from 'react';
+// import { Link } from 'react-router-dom'; 
 import img1 from "./imagesoffooter/arrow.svg";
 import img2 from "./imagesoffooter/facebook.svg";
 import img3 from "./imagesoffooter/linkedin.svg";
@@ -42,10 +43,16 @@ import img4 from "./imagesoffooter/instagram.svg";
 import img5 from "./imagesoffooter/mail.svg";
 
 export default function Footer() {
+  const handlebacktotop=() =>{
+    window.scrollTo(0, 0);
+  }
   return (
+    
     <div className="all">
-      <div className="backtotop">
+      <div onClick={handlebacktotop} className="backtotop">
+      
         <img className="img1footer" src={img1} alt="Back to Top" />
+       
         <h6>BACK TO TOP</h6>
       </div>
 

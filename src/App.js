@@ -10,6 +10,7 @@ import Firstpage from './Firstpage';
 import Hamburger from './Hamburger';
 import Menu from './Menu';
 import Responsive from './components/Responsive';
+import { BrowserRouter as Router, Route, Switch, Routes } from 'react-router-dom';
 
 function App() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -20,8 +21,10 @@ function App() {
   };
 
   return (
+    
     <>
       <div>
+     
         {!isMenuOpen ?  <Hamburger onClick={toggleMenu} />:""}
      
       <Menu isOpen={isMenuOpen} onClose={toggleMenu} />
@@ -35,8 +38,11 @@ function App() {
         <Portfolio />
         <Contact />
         <Footer />
+      
       </div>
     </>
+
+
   );
 }
 
