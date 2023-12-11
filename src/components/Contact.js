@@ -83,7 +83,7 @@ export default function Contact() {
             value={name}
             onChange={(e)=>setName(e.target.value)}
           />
-          <br />
+          <br /> 
           <input
             className="enteryourmail"
             type="email"
@@ -122,3 +122,4 @@ export default function Contact() {
     </div>
   );
 }
+
