@@ -54,6 +54,9 @@ export default function Contact() {
       alert(`${name}, Form Submitted Successfully`)
     
       setName('')
+      setEmail('')
+      setPhone('')
+      setMessage('')
     }
   };
 
